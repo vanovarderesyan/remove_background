@@ -13,5 +13,5 @@ router.register(r'convert', ConvertViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
-    path('video-to-text/', FileUploadView.as_view())
+    path('remove-background/', FileUploadView.as_view())
 ]
